@@ -1,9 +1,0 @@
-firm\/.*.asm
-firm\/.*.lst
-firm\/.*.cof
-firm\/.*.cod
-firm\/.*.hex
-firm/.depend
-hard\/elec\/.*gschem.log
-hard/elec/gnetlist.log
-log/state
