@@ -1,0 +1,2 @@
+<?xml version="1.0" ?>
+<marker hash="f5aa8fae9bb53810981e73915f73e532d41bcd01" logmsg="Removed osctune stuff and made the pic's timer run directly off of the 32khz output. Hopefully this will fix problems with jitter, but still need to verify that timing is correct in the long term, looks like it may be off by a few percentage points." task="e3538697-739c-4414-8cf9-2b2648dd9db2" timestamp="2007-07-03T09:14:57" type="stop" uuid="152455d1-432f-442e-adb5-573a9acc1741"/>

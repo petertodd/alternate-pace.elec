@@ -1,0 +1,1 @@
+cat main.sch  | grep part | sed 's/^part=//g' | sort | uniq -c | sed 's/^      //g' | sed 's/ /,/g' | sed "s/$/,/g"

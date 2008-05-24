@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<task name="devel" uuid="e3538697-739c-4414-8cf9-2b2648dd9db2">
+ <projects>
+  <project uuid="db8c40e7-4e71-4430-97fe-42b53a94423d"/>
+ </projects>
+</task>
