@@ -1,2 +1,0 @@
-<?xml version="1.0" ?>
-<marker hash="28924a4f3a940645c9043f712b215f1a115d78ce" logmsg="Fixed seconds skipping by implementing oscillator tuning to match pic to master ds3231 frequency." task="e3538697-739c-4414-8cf9-2b2648dd9db2" timestamp="2007-07-02T15:08:54" type="stop" uuid="23613e49-6d2c-4ff7-a2d7-e2d05f9ac8ff"/>

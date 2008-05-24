@@ -1,2 +1,0 @@
-<?xml version="1.0" ?>
-<marker hash="0420dc4d432772a797e60dde0161aa7d693a08f9" logmsg="Firmware seems to be finished. Implemented ds3231 support, eeprom, metrics and various other polishing, as well as lots of struggling trying to get the firmware to fit." task="e3538697-739c-4414-8cf9-2b2648dd9db2" timestamp="2007-07-01T20:48:12" type="stop" uuid="dbc8c64d-f6b3-4581-abe7-a9cae00d9292"/>
