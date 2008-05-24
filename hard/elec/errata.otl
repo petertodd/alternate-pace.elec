@@ -1,4 +1,5 @@
 [_] 0% Errata for v2.1 pcb spin
+	[_] Change power connectors to single MTA-156.
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
 	[_] Missing 7808 bypass for led under supercap.
