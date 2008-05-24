@@ -1,4 +1,6 @@
 [_] 83% Alternate Pace (Fast Clock, Slow Clock)
+	: http://www.lc-led.com/ <- many different colors of led seven-segment
+	: displays, 2.3" white available
 	[_] 83% Features
 		[_] 66% Firmware
 			[X] 100% Interrupts
