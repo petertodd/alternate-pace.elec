@@ -1,4 +1,9 @@
 [_] 0% Errata for v2.1 pcb spin
+	[_] 0% Finish changes
+		: White soldermask, black silk-screen, gold immersion
+		[_] Check all silkscreen text for placement, sutability
+		[_] Consider what traces should be unmasked for the gold to show up best
+		[_] Consider using *black* solder mask, so gold will show up better
 	[_] Change power connectors to single MTA-156.
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
