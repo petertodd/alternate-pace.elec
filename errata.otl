@@ -5,6 +5,8 @@
 		[_] Consider what traces should be unmasked for the gold to show up best
 		[_] Consider using *black* solder mask, so gold will show up better
 		[_] Blank white space for UUID?
+	[_] Do away with 7808's
+		: Green version worked fine without. 
 	[_] Change power connectors to single MTA-156.
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
