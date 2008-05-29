@@ -9,9 +9,12 @@
 		: Green version worked fine without. 
 		[X] Schematic
 		[_] PCB
-	[_] Change power connectors to single MTA-156.
+	[_] 0% Change power connectors to single MTA-156.
+		[_] Schematic
+		[_] PCB
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
 	[_] Missing 7808 bypass for led under supercap.
 	[_] Need to spaceout leds slightly, green especially had problems in assembly.
+	[_] Include holes to mount standoffs on the back
 	[_] Update version to v2.2
