@@ -1,4 +1,4 @@
-[_] 6% Errata for v2.1 pcb spin
+[_] 15% Errata for v2.1 pcb spin
 	[_] 0% Finish changes
 		: White soldermask, black silk-screen, gold immersion
 		[_] Check all silkscreen text for placement, sutability
@@ -9,8 +9,11 @@
 		: Green version worked fine without. 
 		[X] Schematic
 		[_] PCB
-	[_] 0% Change power connectors to single MTA-156.
-		[_] Schematic
+	[_] 50% Change power connectors to single MTA-156.
+		[X] Schematic
+		[_] PCB
+	[_] 50% Add overvoltage protection
+		[X] Schematic
 		[_] PCB
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
