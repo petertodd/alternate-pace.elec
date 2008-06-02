@@ -1,9 +1,5 @@
-firm/*.asm
-firm/*.lst
-firm/*.cof
-firm/*.cod
-firm/*.hex
-firm/*.o
-firm/.depend
-hard/elec/*gschem.log
-hard/elec/gnetlist.log
+*~
+*gschem.log
+gnetlist.log
+alternate-pace.new.pcb
+alternate-pace.pcb.bak*
