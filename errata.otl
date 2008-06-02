@@ -15,7 +15,10 @@
 			: Holes correct dia?
 	[_] 50% Add overvoltage protection
 		[X] Schematic
-		[_] PCB
+		[_] 0% PCB
+			[_] Placed
+			[_] Diode hole correct dia?
+			[_] Correct polarity?
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
 	[_] Missing 7808 bypass for led under supercap.
