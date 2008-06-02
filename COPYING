@@ -1,15 +1,14 @@
-Alternate Pace
-(c) 2007 Peter Todd <pete@petertodd.org>
+Alternate Pace - Electronics and PCB design
+(c) 2007, 2008 Peter Todd <pete@petertodd.org>
 
 The files in this package are released under the Creative Commons
 Attribution-Noncommercial-Share Alike 3.0 License, except for the files under
-the firm/ directory and the files under the hard/elec/sym directory which are
-released under the GNU General Public License version 2 or greater, see
-firm/COPYING
+the sym directory which are released under the GNU General Public License
+version 2 or greater, see sym/COPYING.
 
-Note that some of the footprints and symbols under hard/elec/sym are derived
-from symbols and footprints from the gEDA package and therefore must be
-released under the GPL.
+Note that some of the footprints and symbols under sym are derived from symbols
+and footprints from the gEDA package and therefore must be released under the
+GPL.
 
 To view a copy of the Creative Commons Attribution-Noncommercial-Share Alike
 3.0 License, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a
