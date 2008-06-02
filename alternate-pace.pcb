@@ -1,12 +1,12 @@
 # release: pcb-bin 20060822
-# date:    Thu Jan 24 20:27:37 2008
+# date:    Mon Jun  2 19:36:01 2008
 # user:    pete (Peter Todd,,,)
 # host:    tilt
 
 PCB["" 1125000 272500]
 
 Grid[2500.000000 0 0 1]
-Cursor[0 0 6.000000]
+Cursor[0 272500 6.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags(0x00000000000000d0)
@@ -1153,9 +1153,6 @@ Element["onsolder" "1206" "C203" "0.1uF" 670000 162500 3150 -3150 2 100 "auto"]
 
 	)
 
-
-
-
 Element["onsolder" "TESTPT_42" "TP701" "unknown" 972500 25000 5000 5000 0 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
@@ -1393,8 +1390,6 @@ Element["onsolder" "1206" "R103" "2000" 967500 180000 3150 -3150 2 100 "auto"]
 
 	)
 
-
-
 Element["onsolder" "CONNECTOR-6-1" "ICSP401" "unknown" 837500 157500 11000 5000 3 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
@@ -1412,9 +1407,6 @@ Element["onsolder" "CONNECTOR-6-1" "ICSP401" "unknown" 837500 157500 11000 5000 
 
 	)
 
-
-
-
 Element["onsolder" "SOT223" "U601" "unknown" 1087500 32500 25300 32900 3 100 "auto"]
 (
 	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "onsolder,square"]
@@ -1427,7 +1419,6 @@ Element["onsolder" "SOT223" "U601" "unknown" 1087500 32500 25300 32900 3 100 "au
 	ElementLine [-5200 32900 -5200 -8500 1000]
 
 	)
-
 
 Element["onsolder" "1206" "C601" "1uF" 1107500 90000 -3150 3150 0 100 "auto"]
 (
@@ -1725,6 +1716,54 @@ Element["onsolder" "1206" "R203" "1" 420000 237500 -3150 3150 0 100 "auto"]
 	ElementLine [-2362 3740 2362 3740 800]
 
 	)
+
+Element["onsolder" "DIODE_LAY-300" "D601" "unknown" 912500 197500 22000 5000 0 100 "auto"]
+(
+	Pin[0 0 5000 3000 5600 2000 "1" "1" "square,edge2"]
+	Pin[30000 0 5000 3000 5600 2000 "2" "2" "edge2"]
+	ElementLine [10000 5000 10000 -5000 1000]
+	ElementLine [20000 -5000 10000 0 1000]
+	ElementLine [20000 5000 20000 -5000 1000]
+	ElementLine [10000 0 20000 5000 1000]
+	ElementLine [20000 0 30000 0 1000]
+	ElementLine [0 0 10000 0 1000]
+
+	)
+
+Element["onsolder" "RESC4532M" "R601" "unknown" 1080000 252500 -3150 3150 0 100 "auto"]
+(
+	Pad[-8267 3346 -8267 -3346 7086 2000 7686 "1" "1" "onsolder,square"]
+	Pad[8267 3346 8267 -3346 7086 2000 7686 "2" "2" "onsolder,square"]
+	ElementLine [-3149 -6889 3149 -6889 800]
+	ElementLine [-3149 6889 3149 6889 800]
+
+	)
+
+Element["onsolder" "CONNECTOR-2-1" "CONN601" "unknown" 967500 207500 11000 5000 3 100 "auto"]
+(
+	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
+	Pin[0 -10000 6000 3000 6600 3000 "2" "2" ""]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+	ElementLine [5000 5000 -5000 5000 2000]
+	ElementLine [5000 -15000 5000 5000 2000]
+	ElementLine [-5000 -15000 5000 -15000 2000]
+	ElementLine [-5000 5000 -5000 -15000 2000]
+
+	)
+Rat[1102500 115000 1 1102500 115000 0  ""]
+Rat[80100 180000 1 50000 80000 0  ""]
+Rat[50000 80000 0 37500 57500 0  ""]
+Rat[37500 47500 0 19233 109154 1  ""]
+Rat[1075000 37500 0 1051250 18500 0  ""]
+Rat[1032500 215000 0 1042500 220000 0  ""]
+Rat[852500 220000 0 852500 205000 0  ""]
+Rat[450000 201700 1 455000 187500 0  ""]
+Rat[637500 201700 1 655000 205000 1  ""]
+Rat[262500 201700 1 280000 205000 1  ""]
+Rat[122500 220000 0 112500 205000 0  ""]
+Rat[75000 205000 1 35767 109154 1  ""]
+Rat[35767 109154 1 20000 80000 0  ""]
 Layer(1 "solder")
 (
 	Line[1100000 242500 1110000 232500 4000 2000 ""]
@@ -2808,6 +2847,8 @@ NetList()
 		Connect("C601-1")
 		Connect("C602-1")
 		Connect("C603-1")
+		Connect("CONN601-2")
+		Connect("D601-2")
 		Connect("ICSP401-3")
 		Connect("R101-2")
 		Connect("R102-2")
@@ -2821,18 +2862,6 @@ NetList()
 		Connect("U101-1")
 		Connect("U102-1")
 		Connect("U103-1")
-		Connect("U107-2")
-		Connect("U107-4")
-		Connect("U108-2")
-		Connect("U108-4")
-		Connect("U109-2")
-		Connect("U109-4")
-		Connect("U110-2")
-		Connect("U110-4")
-		Connect("U111-2")
-		Connect("U111-4")
-		Connect("U112-2")
-		Connect("U112-4")
 		Connect("U201-5")
 		Connect("U201-6")
 		Connect("U201-7")
@@ -2845,7 +2874,6 @@ NetList()
 		Connect("U501-5")
 		Connect("U601-2")
 		Connect("U601-4")
-		Connect("U602-3")
 	)
 	Net("I2C_SCL" "(unknown)")
 	(
@@ -2949,347 +2977,304 @@ NetList()
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("LED101-CA1")
-		Connect("LED101-CA2")
-		Connect("U107-3")
-	)
-	Net("unnamed_net2" "(unknown)")
-	(
 		Connect("LED101-A")
 		Connect("U101-5")
 	)
-	Net("unnamed_net3" "(unknown)")
+	Net("unnamed_net2" "(unknown)")
 	(
 		Connect("LED101-B")
 		Connect("U101-6")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net3" "(unknown)")
 	(
 		Connect("LED101-C")
 		Connect("U101-7")
 	)
-	Net("unnamed_net5" "(unknown)")
+	Net("unnamed_net4" "(unknown)")
 	(
 		Connect("LED101-D")
 		Connect("U101-8")
 	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net5" "(unknown)")
 	(
 		Connect("LED101-DP")
 		Connect("U101-12")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("LED101-E")
 		Connect("U101-9")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
 		Connect("LED101-F")
 		Connect("U101-10")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("LED101-G")
 		Connect("U101-11")
 	)
-	Net("unnamed_net10" "(unknown)")
-	(
-		Connect("LED102-CA1")
-		Connect("LED102-CA2")
-		Connect("U108-3")
-	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("LED102-A")
 		Connect("U101-13")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("LED102-B")
 		Connect("U101-14")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("LED102-C")
 		Connect("U101-15")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("LED102-D")
 		Connect("U101-16")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("LED102-DP")
 		Connect("U101-20")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("LED102-E")
 		Connect("U101-17")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("LED102-F")
 		Connect("U101-18")
 	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("LED102-G")
 		Connect("U101-19")
 	)
-	Net("unnamed_net19" "(unknown)")
-	(
-		Connect("LED103-CA1")
-		Connect("LED103-CA2")
-		Connect("U109-3")
-	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("LED103-A")
 		Connect("U102-5")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("LED103-B")
 		Connect("U102-6")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("LED103-C")
 		Connect("U102-7")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("LED103-D")
 		Connect("U102-8")
 	)
-	Net("unnamed_net24" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("LED103-DP")
 		Connect("U102-12")
 	)
-	Net("unnamed_net25" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("LED103-E")
 		Connect("U102-9")
 	)
-	Net("unnamed_net26" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("LED103-F")
 		Connect("U102-10")
 	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net24" "(unknown)")
 	(
 		Connect("LED103-G")
 		Connect("U102-11")
 	)
-	Net("unnamed_net28" "(unknown)")
-	(
-		Connect("LED104-CA1")
-		Connect("LED104-CA2")
-		Connect("U110-3")
-	)
-	Net("unnamed_net29" "(unknown)")
+	Net("unnamed_net25" "(unknown)")
 	(
 		Connect("LED104-A")
 		Connect("U102-13")
 	)
-	Net("unnamed_net30" "(unknown)")
+	Net("unnamed_net26" "(unknown)")
 	(
 		Connect("LED104-B")
 		Connect("U102-14")
 	)
-	Net("unnamed_net31" "(unknown)")
+	Net("unnamed_net27" "(unknown)")
 	(
 		Connect("LED104-C")
 		Connect("U102-15")
 	)
-	Net("unnamed_net32" "(unknown)")
+	Net("unnamed_net28" "(unknown)")
 	(
 		Connect("LED104-D")
 		Connect("U102-16")
 	)
-	Net("unnamed_net33" "(unknown)")
+	Net("unnamed_net29" "(unknown)")
 	(
 		Connect("LED104-DP")
 		Connect("U102-20")
 	)
-	Net("unnamed_net34" "(unknown)")
+	Net("unnamed_net30" "(unknown)")
 	(
 		Connect("LED104-E")
 		Connect("U102-17")
 	)
-	Net("unnamed_net35" "(unknown)")
+	Net("unnamed_net31" "(unknown)")
 	(
 		Connect("LED104-F")
 		Connect("U102-18")
 	)
-	Net("unnamed_net36" "(unknown)")
+	Net("unnamed_net32" "(unknown)")
 	(
 		Connect("LED104-G")
 		Connect("U102-19")
 	)
-	Net("unnamed_net37" "(unknown)")
-	(
-		Connect("LED105-CA1")
-		Connect("LED105-CA2")
-		Connect("U111-3")
-	)
-	Net("unnamed_net38" "(unknown)")
+	Net("unnamed_net33" "(unknown)")
 	(
 		Connect("LED105-A")
 		Connect("U103-5")
 	)
-	Net("unnamed_net39" "(unknown)")
+	Net("unnamed_net34" "(unknown)")
 	(
 		Connect("LED105-B")
 		Connect("U103-6")
 	)
-	Net("unnamed_net40" "(unknown)")
+	Net("unnamed_net35" "(unknown)")
 	(
 		Connect("LED105-C")
 		Connect("U103-7")
 	)
-	Net("unnamed_net41" "(unknown)")
+	Net("unnamed_net36" "(unknown)")
 	(
 		Connect("LED105-D")
 		Connect("U103-8")
 	)
-	Net("unnamed_net42" "(unknown)")
+	Net("unnamed_net37" "(unknown)")
 	(
 		Connect("LED105-DP")
 		Connect("U103-12")
 	)
-	Net("unnamed_net43" "(unknown)")
+	Net("unnamed_net38" "(unknown)")
 	(
 		Connect("LED105-E")
 		Connect("U103-9")
 	)
-	Net("unnamed_net44" "(unknown)")
+	Net("unnamed_net39" "(unknown)")
 	(
 		Connect("LED105-F")
 		Connect("U103-10")
 	)
-	Net("unnamed_net45" "(unknown)")
+	Net("unnamed_net40" "(unknown)")
 	(
 		Connect("LED105-G")
 		Connect("U103-11")
 	)
-	Net("unnamed_net46" "(unknown)")
-	(
-		Connect("LED106-CA1")
-		Connect("LED106-CA2")
-		Connect("U112-3")
-	)
-	Net("unnamed_net47" "(unknown)")
+	Net("unnamed_net41" "(unknown)")
 	(
 		Connect("LED106-A")
 		Connect("U103-13")
 	)
-	Net("unnamed_net48" "(unknown)")
+	Net("unnamed_net42" "(unknown)")
 	(
 		Connect("LED106-B")
 		Connect("U103-14")
 	)
-	Net("unnamed_net49" "(unknown)")
+	Net("unnamed_net43" "(unknown)")
 	(
 		Connect("LED106-C")
 		Connect("U103-15")
 	)
-	Net("unnamed_net50" "(unknown)")
+	Net("unnamed_net44" "(unknown)")
 	(
 		Connect("LED106-D")
 		Connect("U103-16")
 	)
-	Net("unnamed_net51" "(unknown)")
+	Net("unnamed_net45" "(unknown)")
 	(
 		Connect("LED106-DP")
 		Connect("U103-20")
 	)
-	Net("unnamed_net52" "(unknown)")
+	Net("unnamed_net46" "(unknown)")
 	(
 		Connect("LED106-E")
 		Connect("U103-17")
 	)
-	Net("unnamed_net53" "(unknown)")
+	Net("unnamed_net47" "(unknown)")
 	(
 		Connect("LED106-F")
 		Connect("U103-18")
 	)
-	Net("unnamed_net54" "(unknown)")
+	Net("unnamed_net48" "(unknown)")
 	(
 		Connect("LED106-G")
 		Connect("U103-19")
 	)
-	Net("unnamed_net55" "(unknown)")
+	Net("unnamed_net49" "(unknown)")
 	(
 		Connect("TP101-1")
 		Connect("U101-22")
 		Connect("U102-2")
 	)
-	Net("unnamed_net56" "(unknown)")
+	Net("unnamed_net50" "(unknown)")
 	(
 		Connect("R101-1")
 		Connect("U101-23")
 	)
-	Net("unnamed_net57" "(unknown)")
+	Net("unnamed_net51" "(unknown)")
 	(
 		Connect("TP102-1")
 		Connect("U102-22")
 		Connect("U103-2")
 	)
-	Net("unnamed_net58" "(unknown)")
+	Net("unnamed_net52" "(unknown)")
 	(
 		Connect("R102-1")
 		Connect("U102-23")
 	)
-	Net("unnamed_net59" "(unknown)")
+	Net("unnamed_net53" "(unknown)")
 	(
 		Connect("R103-1")
 		Connect("U103-23")
 	)
-	Net("unnamed_net60" "(unknown)")
+	Net("unnamed_net54" "(unknown)")
 	(
 		Connect("C202-2")
 		Connect("R203-2")
 		Connect("TP205-1")
 		Connect("U201-14")
 	)
-	Net("unnamed_net61" "(unknown)")
+	Net("unnamed_net55" "(unknown)")
 	(
 		Connect("TP203-1")
 		Connect("U201-3")
 	)
-	Net("unnamed_net62" "(unknown)")
+	Net("unnamed_net56" "(unknown)")
 	(
 		Connect("TP204-1")
 		Connect("U201-4")
 	)
-	Net("unnamed_net63" "(unknown)")
+	Net("unnamed_net57" "(unknown)")
 	(
 		Connect("C201-1")
 		Connect("R201-2")
 		Connect("R203-1")
 		Connect("TP201-1")
 	)
-	Net("unnamed_net64" "(unknown)")
+	Net("unnamed_net58" "(unknown)")
 	(
 		Connect("R201-1")
 		Connect("U202-1")
 	)
-	Net("unnamed_net65" "(unknown)")
-	(
-		Connect("CONN601-2")
-		Connect("CONN602-2")
-		Connect("U602-4")
-	)
-	Net("unnamed_net66" "(unknown)")
+	Net("unnamed_net59" "(unknown)")
 	(
 		Connect("CONN601-1")
-		Connect("CONN602-1")
-		Connect("U602-6")
+		Connect("R601-1")
 	)
 	Net("Vcc" "(unknown)")
 	(
@@ -3321,14 +3306,21 @@ NetList()
 	Net("Vled" "(unknown)")
 	(
 		Connect("C603-2")
+		Connect("D601-1")
+		Connect("LED101-CA1")
+		Connect("LED101-CA2")
+		Connect("LED102-CA1")
+		Connect("LED102-CA2")
+		Connect("LED103-CA1")
+		Connect("LED103-CA2")
+		Connect("LED104-CA1")
+		Connect("LED104-CA2")
+		Connect("LED105-CA1")
+		Connect("LED105-CA2")
+		Connect("LED106-CA1")
+		Connect("LED106-CA2")
+		Connect("R601-2")
 		Connect("TP601-1")
-		Connect("U107-1")
-		Connect("U108-1")
-		Connect("U109-1")
-		Connect("U110-1")
-		Connect("U111-1")
-		Connect("U112-1")
 		Connect("U601-1")
-		Connect("U602-1")
 	)
 )
