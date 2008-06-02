@@ -9,9 +9,10 @@
 		: Green version worked fine without. 
 		[X] Schematic
 		[_] PCB
-	[_] 50% Change power connectors to single MTA-156.
+	[_] 50% Change power connectors to single blue DUBOX connector.
 		[X] Schematic
 		[_] PCB
+			: Holes correct dia?
 	[_] 50% Add overvoltage protection
 		[X] Schematic
 		[_] PCB

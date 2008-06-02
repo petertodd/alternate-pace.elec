@@ -110,9 +110,9 @@ C 31600 48200 1 0 1 connector2-2.sym
 T 30900 49500 5 10 1 1 0 0 1
 refdes=CONN601
 T 31300 49650 5 10 0 0 0 6 1
-footprint=MTA-156
+footprint=CONNECTOR 2 1
 T 31600 48200 5 10 0 0 0 0 1
-part=WM5235-ND
+part=609-1278-ND
 }
 C 34100 49100 1 270 0 diode-3.sym
 {
