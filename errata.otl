@@ -1,4 +1,4 @@
-[_] 60% Errata for v2.1 pcb spin
+[_] 75% Errata for v2.1 pcb spin
 	[X] 100% Finish changes
 		: White soldermask, black silk-screen, gold immersion
 		[X] Check all silkscreen text for placement, sutability
@@ -16,9 +16,7 @@
 			[X] Placed
 			[X] Diode hole correct dia?
 			[X] Correct polarity?
-	[_] Move group trace close to upper power jack
 	[X] Move SDA test pin in line with SCL so as to not interfere with led
-	[_] Missing 7808 bypass for led under supercap.
 	[_] Need to spaceout leds slightly, green especially had problems in assembly.
 	[X] Include holes to mount standoffs on the back
 	[_] Update version to v2.2
