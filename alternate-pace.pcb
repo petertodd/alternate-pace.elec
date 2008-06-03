@@ -1,12 +1,12 @@
 # release: pcb-bin 20060822
-# date:    Tue Jun  3 18:32:03 2008
+# date:    Tue Jun  3 19:53:28 2008
 # user:    pete (Peter Todd,,,)
 # host:    tilt
 
 PCB["" 1125000 272500]
 
 Grid[2500.000000 0 0 1]
-Cursor[0 272500 6.000000]
+Cursor[0 0 6.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags(0x00000000000000d0)
@@ -950,7 +950,7 @@ Via[1050000 170000 6000 2000 0 3500 "" ""]
 Via[1117500 102500 6000 2000 0 3500 "" ""]
 Via[467500 217500 6000 2000 0 3500 "" ""]
 
-Element["lock" "lds-ad14ri" "LED102" "unknown" 261250 18500 -50000 0 0 100 ""]
+Element["lock" "lds-ad14ri" "LED102" "unknown" 261250 18500 -1250 6500 0 100 ""]
 (
 	Pin[40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1004,7 +1004,7 @@ Element["lock" "lds-ad14ri" "LED101" "unknown" 73750 18500 -50000 0 0 100 "selec
 
 	)
 
-Element["lock" "lds-ad14ri" "LED106" "unknown" 1051250 255200 50000 0 2 100 ""]
+Element["lock" "lds-ad14ri" "LED106" "unknown" 1051250 255200 -36250 -230200 0 100 ""]
 (
 	Pin[-40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[-20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1031,7 +1031,7 @@ Element["lock" "lds-ad14ri" "LED106" "unknown" 1051250 255200 50000 0 2 100 ""]
 
 	)
 
-Element["onsolder" "1206" "R202" "4K7" 760000 200000 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R202" "4K7" 760000 200000 10000 -10000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1040,7 +1040,7 @@ Element["onsolder" "1206" "R202" "4K7" 760000 200000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["lock" "lds-ad14ri" "LED104" "unknown" 636250 18500 -50000 0 0 100 ""]
+Element["lock" "lds-ad14ri" "LED104" "unknown" 636250 18500 -3750 6500 0 100 ""]
 (
 	Pin[40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1094,13 +1094,13 @@ Element["hidename,lock" "lds-ad14ri" "LED103" "unknown" 488750 255200 50000 0 2 
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP201" "unknown" 395000 237500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP201" "unknown" 395000 237500 -5000 -2500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "C603" "1uF" 1085000 90000 3150 -3150 2 100 "auto"]
+Element["onsolder" "1206" "C603" "1uF" 1085000 90000 5000 7500 2 100 "auto"]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1109,7 +1109,7 @@ Element["onsolder" "1206" "C603" "1uF" 1085000 90000 3150 -3150 2 100 "auto"]
 
 	)
 
-Element["onsolder" "supercap_20mm" "C201" "1.5F_5.5V" 417500 147500 0 0 0 100 "auto"]
+Element["onsolder" "supercap_20mm" "C201" "1.5F_5.5V" 417500 147500 55000 -55000 2 100 "auto"]
 (
 	Pin[-23623 0 12000 5000 12600 8600 "" "1" "square"]
 	Pin[55117 0 12000 5000 12600 8600 "" "2" ""]
@@ -1120,7 +1120,7 @@ Element["onsolder" "supercap_20mm" "C201" "1.5F_5.5V" 417500 147500 0 0 0 100 "a
 
 	)
 
-Element["onsolder" "1206" "C202" "0.1uF" 695000 162500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C202" "0.1uF" 695000 162500 7500 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1129,13 +1129,13 @@ Element["onsolder" "1206" "C202" "0.1uF" 695000 162500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP101" "unknown" 232500 147500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP101" "unknown" 232500 147500 5000 5000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "C203" "0.1uF" 670000 162500 3150 -3150 2 100 "auto"]
+Element["onsolder" "1206" "C203" "0.1uF" 670000 162500 7500 5000 2 100 "auto"]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1144,31 +1144,31 @@ Element["onsolder" "1206" "C203" "0.1uF" 670000 162500 3150 -3150 2 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP701" "unknown" 972500 25000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP701" "unknown" 972500 25000 20000 0 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP601" "unknown" 1060000 220000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP601" "unknown" 1060000 220000 20000 0 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP702" "unknown" 597500 25000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP702" "unknown" 597500 25000 7500 -12500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP602" "unknown" 1055000 195000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP602" "unknown" 1055000 195000 25000 -5000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R701" "4K7" 977500 37500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R701" "4K7" 977500 37500 5000 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1177,19 +1177,19 @@ Element["onsolder" "1206" "R701" "4K7" 977500 37500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP703" "unknown" 220000 25000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP703" "unknown" 220000 25000 12500 -10000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP401" "unknown" 802500 195000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP401" "unknown" 802500 195000 20000 0 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R702" "4K7" 595000 37500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R702" "4K7" 595000 37500 7500 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1198,13 +1198,13 @@ Element["onsolder" "1206" "R702" "4K7" 595000 37500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP301" "unknown" 730000 207500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP301" "unknown" 730000 207500 -5000 -12500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TL1105RF160Q" "SW701" "unknown" 922500 35000 0 0 0 100 "auto"]
+Element["onsolder" "TL1105RF160Q" "SW701" "unknown" 922500 35000 10000 7500 2 100 "auto"]
 (
 	Pin[22638 -9843 7937 2000 6506 4200 "" "2" "edge2"]
 	Pin[4921 -9843 7937 2000 6506 4200 "" "1" "edge2"]
@@ -1217,7 +1217,7 @@ Element["onsolder" "TL1105RF160Q" "SW701" "unknown" 922500 35000 0 0 0 100 "auto
 
 	)
 
-Element["onsolder" "1206" "R703" "4K7" 222500 37500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R703" "4K7" 222500 37500 7500 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1226,7 +1226,7 @@ Element["onsolder" "1206" "R703" "4K7" 222500 37500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "SOD123" "U202" "150mA" 392500 92500 12000 0 3 100 "auto"]
+Element["onsolder" "SOD123" "U202" "150mA" 392500 92500 5000 7500 2 100 "auto"]
 (
 	Pad[-5500 -600 -5500 600 6900 2000 7500 "1" "1" "onsolder,square"]
 	Pad[5500 -600 5500 600 6900 2000 7500 "2" "2" "onsolder,square"]
@@ -1239,13 +1239,13 @@ Element["onsolder" "SOD123" "U202" "150mA" 392500 92500 12000 0 3 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP302" "unknown" 745000 207500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP302" "unknown" 745000 207500 2500 -10000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R401" "100K" 807500 170000 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R401" "100K" 807500 170000 22500 -2500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1254,7 +1254,7 @@ Element["onsolder" "1206" "R401" "100K" 807500 170000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TL1105RF160Q" "SW702" "unknown" 550000 35000 0 0 0 100 "auto"]
+Element["onsolder" "TL1105RF160Q" "SW702" "unknown" 550000 35000 7500 7500 2 100 "auto"]
 (
 	Pin[22638 -9843 7937 2000 6506 4200 "" "2" "edge2"]
 	Pin[4921 -9843 7937 2000 6506 4200 "" "1" "edge2"]
@@ -1267,13 +1267,13 @@ Element["onsolder" "TL1105RF160Q" "SW702" "unknown" 550000 35000 0 0 0 100 "auto
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP202" "unknown" 642500 152500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP202" "unknown" 642500 152500 -5000 -2500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R301" "4K7" 722500 190000 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R301" "4K7" 722500 190000 2500 -10000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1282,7 +1282,7 @@ Element["onsolder" "1206" "R301" "4K7" 722500 190000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "R402" "4K7" 855000 107500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R402" "4K7" 855000 107500 5000 -12500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1291,7 +1291,7 @@ Element["onsolder" "1206" "R402" "4K7" 855000 107500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TL1105RF160Q" "SW703" "unknown" 172500 35000 0 0 0 100 "auto"]
+Element["onsolder" "TL1105RF160Q" "SW703" "unknown" 172500 35000 30000 7500 2 100 "auto"]
 (
 	Pin[22638 -9843 7937 2000 6506 4200 "" "2" "edge2"]
 	Pin[4921 -9843 7937 2000 6506 4200 "" "1" "edge2"]
@@ -1304,7 +1304,7 @@ Element["onsolder" "TL1105RF160Q" "SW703" "unknown" 172500 35000 0 0 0 100 "auto
 
 	)
 
-Element["onsolder" "1206" "R201" "100" 374000 108000 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R201" "100" 374000 108000 -1500 4500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1313,13 +1313,13 @@ Element["onsolder" "1206" "R201" "100" 374000 108000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP203" "unknown" 642500 140000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP203" "unknown" 642500 140000 -5000 -2500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R302" "4K7" 747500 190000 3150 -3150 2 100 "auto"]
+Element["onsolder" "1206" "R302" "4K7" 747500 190000 2500 -10000 2 100 "auto"]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1328,7 +1328,7 @@ Element["onsolder" "1206" "R302" "4K7" 747500 190000 3150 -3150 2 100 "auto"]
 
 	)
 
-Element["onsolder" "SO18W" "U501" "unknown" 775000 132500 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO18W" "U501" "unknown" 775000 132500 22500 -30000 2 100 "auto"]
 (
 	Pad[-21000 20000 -15000 20000 2000 1000 3000 "1" "1" "onsolder,square"]
 	Pad[-21000 15000 -15000 15000 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -1357,13 +1357,13 @@ Element["onsolder" "SO18W" "U501" "unknown" 775000 132500 -2000 6000 0 100 "auto
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP204" "unknown" 642500 127500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP204" "unknown" 642500 127500 -5000 -2500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R102" "2000" 585000 187500 3150 -3150 2 100 "auto"]
+Element["onsolder" "1206" "R102" "2000" 585000 187500 5000 5000 2 100 "auto"]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1372,7 +1372,7 @@ Element["onsolder" "1206" "R102" "2000" 585000 187500 3150 -3150 2 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "R103" "2000" 967500 180000 3150 -3150 2 100 "auto"]
+Element["onsolder" "1206" "R103" "2000" 967500 180000 -20000 -5000 2 100 "auto"]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1381,7 +1381,7 @@ Element["onsolder" "1206" "R103" "2000" 967500 180000 3150 -3150 2 100 "auto"]
 
 	)
 
-Element["onsolder" "CONNECTOR-6-1" "ICSP401" "unknown" 837500 157500 11000 5000 3 100 "auto"]
+Element["onsolder" "CONNECTOR-6-1" "ICSP401" "unknown" 837500 157500 2500 -62500 2 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1398,7 +1398,7 @@ Element["onsolder" "CONNECTOR-6-1" "ICSP401" "unknown" 837500 157500 11000 5000 
 
 	)
 
-Element["onsolder" "SOT223" "U601" "unknown" 1087500 32500 25300 32900 3 100 "auto"]
+Element["onsolder" "SOT223" "U601" "unknown" 1087500 32500 22900 24700 2 100 "auto"]
 (
 	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "onsolder,square"]
 	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "onsolder,square"]
@@ -1411,7 +1411,7 @@ Element["onsolder" "SOT223" "U601" "unknown" 1087500 32500 25300 32900 3 100 "au
 
 	)
 
-Element["onsolder" "1206" "C601" "1uF" 1107500 90000 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C601" "1uF" 1107500 90000 7500 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1420,7 +1420,7 @@ Element["onsolder" "1206" "C601" "1uF" 1107500 90000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "R101" "2000" 232500 162500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R101" "2000" 232500 162500 5000 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1429,7 +1429,7 @@ Element["onsolder" "1206" "R101" "2000" 232500 162500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "C501" "0.1uF" 775000 162500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C501" "0.1uF" 775000 162500 -10000 -5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1438,7 +1438,7 @@ Element["onsolder" "1206" "C501" "0.1uF" 775000 162500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "C602" "0.1uF" 1100000 17500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C602" "0.1uF" 1100000 17500 7500 -12500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1447,7 +1447,7 @@ Element["onsolder" "1206" "C602" "0.1uF" 1100000 17500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["lock" "lds-ad14ri" "LED105" "unknown" 863750 255200 50000 0 2 100 ""]
+Element["lock" "lds-ad14ri" "LED105" "unknown" 863750 255200 -43750 -230200 0 100 ""]
 (
 	Pin[-40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[-20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1474,13 +1474,13 @@ Element["lock" "lds-ad14ri" "LED105" "unknown" 863750 255200 50000 0 2 100 ""]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP603" "unknown" 782500 197500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP603" "unknown" 782500 197500 10000 -10000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "SO24W" "U101" "unknown" 187500 125000 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO24W" "U101" "unknown" 187500 125000 22500 -37500 2 100 "auto"]
 (
 	Pad[-21000 27500 -15000 27500 2000 1000 3000 "1" "1" "onsolder,square"]
 	Pad[-21000 22500 -15000 22500 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -1515,7 +1515,7 @@ Element["onsolder" "SO24W" "U101" "unknown" 187500 125000 -2000 6000 0 100 "auto
 
 	)
 
-Element["onsolder" "SO24W" "U102" "unknown" 562500 135000 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO24W" "U102" "unknown" 562500 135000 22500 -37500 2 100 "auto"]
 (
 	Pad[-21000 27500 -15000 27500 2000 1000 3000 "1" "1" "onsolder,square"]
 	Pad[-21000 22500 -15000 22500 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -1550,7 +1550,7 @@ Element["onsolder" "SO24W" "U102" "unknown" 562500 135000 -2000 6000 0 100 "auto
 
 	)
 
-Element["onsolder" "SO24W" "U103" "unknown" 950000 132500 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO24W" "U103" "unknown" 950000 132500 20000 -40000 2 100 "auto"]
 (
 	Pad[-21000 27500 -15000 27500 2000 1000 3000 "1" "1" "onsolder,square"]
 	Pad[-21000 22500 -15000 22500 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -1585,7 +1585,7 @@ Element["onsolder" "SO24W" "U103" "unknown" 950000 132500 -2000 6000 0 100 "auto
 
 	)
 
-Element["onsolder" "1206" "C101" "0.1uF" 207500 162500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C101" "0.1uF" 207500 162500 -10000 -2500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1594,7 +1594,7 @@ Element["onsolder" "1206" "C101" "0.1uF" 207500 162500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "C102" "0.1uF" 572500 172500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C102" "0.1uF" 572500 172500 -12500 -2500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1603,7 +1603,7 @@ Element["onsolder" "1206" "C102" "0.1uF" 572500 172500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "1206" "C103" "0.1uF" 967500 170000 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "C103" "0.1uF" 967500 170000 -20000 -2500 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1612,49 +1612,49 @@ Element["onsolder" "1206" "C103" "0.1uF" 967500 170000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP704" "unknown" 350000 107500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP704" "unknown" 350000 107500 5000 7500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP107" "unknown" 255000 137500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP107" "unknown" 255000 137500 -7500 -15000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP102" "unknown" 610000 155000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP102" "unknown" 610000 155000 10000 5000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP103" "unknown" 1017500 160000 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP103" "unknown" 1017500 160000 12500 5000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP104" "unknown" 145000 152500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP104" "unknown" 145000 152500 -27500 0 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP105" "unknown" 145000 142500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP105" "unknown" 145000 142500 -27500 -2500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "TESTPT_42" "TP106" "unknown" 145000 132500 5000 5000 0 100 "auto"]
+Element["onsolder" "TESTPT_42" "TP106" "unknown" 145000 132500 -27500 -5000 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "3352E" "R704" "2.0K" 350000 132500 0 0 1 100 "auto"]
+Element["onsolder" "3352E" "R704" "2.0K" 350000 132500 -35000 -17500 2 100 "auto"]
 (
 	Pin[0 0 6000 2000 6600 3500 "" "1" "edge2"]
 	Pin[0 20000 6000 2000 6600 3500 "" "2" "edge2"]
@@ -1666,7 +1666,7 @@ Element["onsolder" "3352E" "R704" "2.0K" 350000 132500 0 0 1 100 "auto"]
 
 	)
 
-Element["onsolder" "SO16W" "U201" "unknown" 682500 132500 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO16W" "U201" "unknown" 682500 132500 22500 -27500 2 100 "auto"]
 (
 	Pad[-21000 17500 -15000 17500 2000 1000 3000 "1" "1" "onsolder,square"]
 	Pad[-21000 12500 -15000 12500 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -1693,13 +1693,13 @@ Element["onsolder" "SO16W" "U201" "unknown" 682500 132500 -2000 6000 0 100 "auto
 
 	)
 
-Element["" "TESTPT_42" "TP205" "unknown" 445000 237500 5000 -5000 0 100 ""]
+Element["onsolder" "TESTPT_42" "TP205" "unknown" 445000 237500 22500 -2500 2 100 "auto"]
 (
 	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
 
 	)
 
-Element["onsolder" "1206" "R203" "1" 420000 237500 -3150 3150 0 100 "auto"]
+Element["onsolder" "1206" "R203" "1" 420000 237500 7500 5000 2 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1708,7 +1708,7 @@ Element["onsolder" "1206" "R203" "1" 420000 237500 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["onsolder" "RESC4532M" "R601" "unknown" 1092500 135000 3150 3150 3 100 "auto"]
+Element["onsolder" "RESC4532M" "R601" "unknown" 1092500 135000 5000 -20000 2 100 "auto"]
 (
 	Pad[-3346 8267 3346 8267 7086 2000 7686 "1" "1" "onsolder,square"]
 	Pad[-3346 -8267 3346 -8267 7086 2000 7686 "2" "2" "onsolder,square"]
@@ -1717,7 +1717,7 @@ Element["onsolder" "RESC4532M" "R601" "unknown" 1092500 135000 3150 3150 3 100 "
 
 	)
 
-Element["onsolder" "CONNECTOR-2-1" "CONN601" "unknown" 1092500 157500 -5000 11000 0 100 "auto"]
+Element["onsolder" "CONNECTOR-2-1" "CONN601" "unknown" 1092500 157500 12500 6500 2 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3000 "1" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3000 "2" "2" "edge2"]

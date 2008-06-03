@@ -1,11 +1,8 @@
-[_] 40% Errata for v2.1 pcb spin
-	[_] 0% Finish changes
+[_] 50% Errata for v2.1 pcb spin
+	[X] 100% Finish changes
 		: White soldermask, black silk-screen, gold immersion
-		[_] Check all silkscreen text for placement, sutability
+		[X] Check all silkscreen text for placement, sutability
 			: No silkscreen over pads! Check rotation!
-		[_] Consider what traces should be unmasked for the gold to show up best
-		[_] Consider using *black* solder mask, so gold will show up better
-		[_] Blank white space for UUID?
 	[X] 100% Do away with 7808's
 		: Green version worked fine without. 
 		[X] Schematic
