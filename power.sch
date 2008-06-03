@@ -125,7 +125,7 @@ part=P6KE15A-TPMSCT-ND
 T 34600 48500 5 10 1 1 0 0 1
 device=P6KE15A-TP
 T 34100 49100 5 10 0 0 0 0 1
-footprint=DIODE_LAY 300
+footprint=DIODE_LAY 500
 }
 C 32700 49900 1 0 0 resistor-1.sym
 {

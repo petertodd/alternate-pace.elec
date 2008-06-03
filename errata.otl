@@ -1,4 +1,4 @@
-[_] 33% Errata for v2.1 pcb spin
+[_] 35% Errata for v2.1 pcb spin
 	[_] 0% Finish changes
 		: White soldermask, black silk-screen, gold immersion
 		[_] Check all silkscreen text for placement, sutability
@@ -14,11 +14,11 @@
 		[X] Schematic
 		[_] PCB
 			: Holes correct dia?
-	[_] 83% Add overvoltage protection
+	[X] 100% Add overvoltage protection
 		[X] Schematic
-		[_] 66% PCB
+		[X] 100% PCB
 			[X] Placed
-			[_] Diode hole correct dia?
+			[X] Diode hole correct dia?
 			[X] Correct polarity?
 	[_] Move group trace close to upper power jack
 	[_] Move SDA test pin in line with SCL so as to not interfeer with led
