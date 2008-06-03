@@ -1,12 +1,12 @@
 # release: pcb-bin 20060822
-# date:    Tue Jun  3 17:52:13 2008
+# date:    Tue Jun  3 17:58:15 2008
 # user:    pete (Peter Todd,,,)
 # host:    tilt
 
 PCB["" 1125000 272500]
 
 Grid[2500.000000 0 0 1]
-Cursor[0 272500 6.000000]
+Cursor[0 0 6.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags(0x00000000000000d0)
@@ -1737,6 +1737,32 @@ Element["onsolder" "CONNECTOR-2-1" "CONN601" "unknown" 1092500 157500 -5000 1100
 	ElementLine [-5000 5000 15000 5000 2000]
 	ElementLine [15000 -5000 15000 5000 2000]
 	ElementLine [-5000 -5000 15000 -5000 2000]
+
+	)
+
+Element["onsolder" "hard-hex-standoff-4" "H801" "unknown" 1022500 200000 5000 15000 2 100 "auto"]
+(
+	Pin[0 0 22500 3000 23100 12500 "" "1" ""]
+	ElementLine [-7200 12500 -14400 0 1000]
+	ElementLine [7200 12500 -7200 12500 1000]
+	ElementLine [14400 0 7200 12500 1000]
+	ElementLine [7200 -12500 14400 0 1000]
+	ElementLine [-7200 -12500 7200 -12500 1000]
+	ElementLine [-14400 0 -7200 -12500 1000]
+	ElementArc [0 0 6800 6800 0 -360 1000]
+
+	)
+
+Element["onsolder" "hard-hex-standoff-4" "H802" "unknown" 87500 200000 5000 15000 2 100 "auto"]
+(
+	Pin[0 0 22500 3000 23100 12500 "" "1" ""]
+	ElementLine [-7200 12500 -14400 0 1000]
+	ElementLine [7200 12500 -7200 12500 1000]
+	ElementLine [14400 0 7200 12500 1000]
+	ElementLine [7200 -12500 14400 0 1000]
+	ElementLine [-7200 -12500 7200 -12500 1000]
+	ElementLine [-14400 0 -7200 -12500 1000]
+	ElementArc [0 0 6800 6800 0 -360 1000]
 
 	)
 Rat[928809 25157 0 1067501 25001 1  ""]

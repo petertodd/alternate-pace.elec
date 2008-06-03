@@ -128,6 +128,12 @@ ChangePinName(LED101, A, a)
 ChangePinName(LED101, CA2, CA)
 ChangePinName(LED101, CA1, CA)
 
+# Start of element H802
+ChangePinName(H802, 1, 1)
+
+# Start of element H801
+ChangePinName(H801, 1, 1)
+
 # Start of element ICSP401
 ChangePinName(ICSP401, 6, 6)
 ChangePinName(ICSP401, 5, 5)
