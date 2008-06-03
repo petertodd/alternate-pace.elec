@@ -1,4 +1,4 @@
-[_] 35% Errata for v2.1 pcb spin
+[_] 40% Errata for v2.1 pcb spin
 	[_] 0% Finish changes
 		: White soldermask, black silk-screen, gold immersion
 		[_] Check all silkscreen text for placement, sutability
@@ -10,10 +10,9 @@
 		: Green version worked fine without. 
 		[X] Schematic
 		[X] PCB
-	[_] 50% Change power connectors to single blue DUBOX connector.
+	[X] 100% Change power connectors to single blue DUBOX connector.
 		[X] Schematic
-		[_] PCB
-			: Holes correct dia?
+		[X] PCB
 	[X] 100% Add overvoltage protection
 		[X] Schematic
 		[X] 100% PCB
