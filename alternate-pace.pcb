@@ -950,7 +950,7 @@ Via[1050000 170000 6000 2000 0 3500 "" ""]
 Via[1117500 102500 6000 2000 0 3500 "" ""]
 Via[467500 217500 6000 2000 0 3500 "" ""]
 
-Element["lock" "lds-ad14ri" "LED102" "unknown" 261250 18500 -1250 6500 0 100 ""]
+Element["lock" "lds-ad14ri" "LED102" "unknown" 261450 18500 -1250 6500 0 100 ""]
 (
 	Pin[40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1004,7 +1004,7 @@ Element["lock" "lds-ad14ri" "LED101" "unknown" 73750 18500 -50000 0 0 100 "selec
 
 	)
 
-Element["lock" "lds-ad14ri" "LED106" "unknown" 1051250 255200 -36250 -230200 0 100 ""]
+Element["lock" "lds-ad14ri" "LED106" "unknown" 1052250 255200 -36250 -230200 0 100 ""]
 (
 	Pin[-40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[-20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1040,7 +1040,7 @@ Element["onsolder" "1206" "R202" "4K7" 760000 200000 10000 -10000 2 100 "auto"]
 
 	)
 
-Element["lock" "lds-ad14ri" "LED104" "unknown" 636250 18500 -3750 6500 0 100 ""]
+Element["lock" "lds-ad14ri" "LED104" "unknown" 636850 18500 -3750 6500 0 100 ""]
 (
 	Pin[40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1067,7 +1067,7 @@ Element["lock" "lds-ad14ri" "LED104" "unknown" 636250 18500 -3750 6500 0 100 ""]
 
 	)
 
-Element["hidename,lock" "lds-ad14ri" "LED103" "unknown" 488750 255200 50000 0 2 100 ""]
+Element["hidename,lock" "lds-ad14ri" "LED103" "unknown" 489150 255200 50000 0 2 100 ""]
 (
 	Pin[-40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[-20000 0 7500 2000 8100 4200 "" "DP" "lock"]
@@ -1447,7 +1447,7 @@ Element["onsolder" "1206" "C602" "0.1uF" 1100000 17500 7500 -12500 2 100 "auto"]
 
 	)
 
-Element["lock" "lds-ad14ri" "LED105" "unknown" 863750 255200 -43750 -230200 0 100 ""]
+Element["lock" "lds-ad14ri" "LED105" "unknown" 864550 255200 -43750 -230200 0 100 ""]
 (
 	Pin[-40000 0 7500 2000 8100 4200 "" "B" "lock"]
 	Pin[-20000 0 7500 2000 8100 4200 "" "DP" "lock"]
