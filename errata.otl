@@ -1,23 +1,2 @@
-[X] 100% Errata for v2.1 pcb spin
-	[X] 100% Finish changes
-		: White soldermask, black silk-screen, gold immersion
-		[X] Check all silkscreen text for placement, sutability
-			: No silkscreen over pads! Check rotation!
-	[X] 100% Do away with 7808's
-		: Green version worked fine without. 
-		[X] Schematic
-		[X] PCB
-	[X] 100% Change power connectors to single blue DUBOX connector.
-		[X] Schematic
-		[X] PCB
-	[X] 100% Add overvoltage protection
-		[X] Schematic
-		[X] 100% PCB
-			[X] Placed
-			[X] Diode hole correct dia?
-			[X] Correct polarity?
-	[X] Move SDA test pin in line with SCL so as to not interfere with led
-	[X] Need to spaceout leds slightly, green especially had problems in assembly.
-		: Spaced out by 2mils, didn't need to change connecting traces.
-	[X] Include holes to mount standoffs on the back
-	[X] Update version to v2.2
+[_] 0% Errata for v2.2 pcb spin
+	[_] Update version to v2.3
