@@ -1,2 +1,5 @@
 [_] 0% Errata for v2.2 pcb spin
+	[_] 0% ds3231.sch 
+		[_] U101 is still named DS32khz
+		[_] U101 needs device and digikey attrs 
 	[_] Update version to v2.3
