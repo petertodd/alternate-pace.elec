@@ -1,1 +1,2 @@
-cat main.sch  | grep part | sed 's/^part=//g' | sort | uniq -c | sed 's/^      //g' | sed 's/ /,/g' | sed "s/$/,/g"
+cat *.sch  | grep sku | sed 's/^sku=//g' | sort | uniq -c | sed 's/^[ ]*//g' | sed 's/ /,/g' | sed "s/$/,/g"
+cat extra_bom_items
